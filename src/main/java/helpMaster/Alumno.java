@@ -14,8 +14,8 @@ import lombok.NoArgsConstructor;
 
 
 public class Alumno {
-private String rut, Nombre;
+private String rut, nombre;
 private List<Integer> notas;
-private Float Promedio;
+private Float promedio;
 
 }
