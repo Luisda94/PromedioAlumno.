@@ -37,7 +37,7 @@ public class Main {
         alumnos.add(new Alumno("18939934", "KenHaley", Arrays.asList(6, 7, 2, 1), 0f));
 
         // Crear instancia de Calculadora e inyectar alumnos
-        Calculadora calculadora = new Calculadora(alumnos);
+        Icalculadora calculadora = new Calculadora(alumnos);
 
         // Crear instancia de Profesor e inyectar Calculadora
         Profesor profesor = new Profesor(calculadora);
